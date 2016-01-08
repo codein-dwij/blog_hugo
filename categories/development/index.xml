@@ -7,7 +7,26 @@
     <language>en-us</language>
     
     
-    <updated>Fri, 08 Jan 2016 17:48:41 IST</updated>
+    <updated>Fri, 08 Jan 2016 19:20:14 IST</updated>
+    
+    <item>
+      <title>Fossasia - Codein Organiser</title>
+      <link>http://codein-dwij.github.io/blog_hugo/post/fossasia/</link>
+      <pubDate>Fri, 08 Jan 2016 19:20:14 IST</pubDate>
+      
+      <guid>http://codein-dwij.github.io/blog_hugo/post/fossasia/</guid>
+      <description>&lt;p&gt;Google Code-in 2015 has 14 organisations out of which one of them is &lt;a href =&#34;http://fossasia.org/&#34;&gt;Fossasia.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Fossasia puts many tasks which include the task &amp;ldquo;Setup a Blog Using Hugo&amp;rdquo;. The mentors are really good and help the students everytime they are stuck.
+There tasks include use of Github and git.&lt;/p&gt;
+
+&lt;p&gt;FOSSASIA is the premier Free and Open Source technology organization in Asia for developers, designers, start-ups, and contributors. Projects at FOSSASIA range from open hardware, to design, graphics and software. FOSSASIA was established in 2009. The annual FOSSASIA took place in Cambodia, Vietnam and Singapore. FOSSASIA meetup groups exist throughout Asia.&lt;/p&gt;
+
+&lt;p&gt;There tasks include use of programming languages like python,css and javascript.&lt;/p&gt;
+
+&lt;p&gt;Working with FOSSASIA proved helpful for me and I learnt a new thing which I had never heard before like hugo.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Pushing Your Blog to Github And Viewing as Github pages</title>
