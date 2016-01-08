@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Development on Lets Learn hugo </title>
+      <title>Development on Lets Learn Hugo </title>
       <generator uri="https://gohugo.io">Hugo</generator>
     <link>http://codein-dwij.github.io/blog_hugo/tags/development/</link>
     <language>en-us</language>
@@ -17,7 +17,7 @@
       <guid>http://codein-dwij.github.io/blog_hugo/post/github/</guid>
       <description>&lt;p&gt;IMP :- This post is based on the windows version of hugo.&lt;/p&gt;
 
-&lt;p&gt;You may visit &lt;a href =&#34;http://codein-dwij.github.io/blog_hugo/post/learn/&#34;&gt;Link &lt;/a&gt; Fot the repository&lt;/p&gt;
+&lt;p&gt;You may visit &lt;a href =&#34;http://codein-dwij.github.io/blog_hugo/post/learn/&#34;&gt;Link &lt;/a&gt; For the repository&lt;/p&gt;
 
 &lt;p&gt;In Our last post, we had done making the blog. Now we will be pushing it to Github. To do this you must have a little knowledge about using Git and Github.&lt;/p&gt;
 
