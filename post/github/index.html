@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-    <title> Tags &middot; Lets Learn hugo </title>
+    <title> Pushing Your Blog to Github And Viewing as Github pages &middot; Lets Learn hugo </title>
     
     <link rel="stylesheet" type="text/css" href="http://codein-dwij.github.io/blog_hugo/css/uno.min.css" />
     <link rel="stylesheet" type="text/css" href="http://codein-dwij.github.io/blog_hugo/css/lightGallery.css" />
@@ -12,14 +12,14 @@
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
     <link rel="shortcut icon" href="/favicon.ico">
     
-    <link href="http://codein-dwij.github.io/blog_hugo/tags/index.xml" rel="alternate" type="application/rss+xml" title="Lets Learn hugo" />
+    <link href="" rel="alternate" type="application/rss+xml" title="Lets Learn hugo" />
     
     <script src="http://codein-dwij.github.io/blog_hugo/js/jquery.min.js"></script>
     <script src="http://codein-dwij.github.io/blog_hugo/js/main.min.js">
     </script>
 </head>
 
-<body>
+  <body>
     <div id="scriptHeader">
     <span class="mobile btn-mobile-menu">
             <i class="fa fa-bars btn-mobile-menu__icon"></i>
@@ -27,9 +27,7 @@
     </span>
     <header class="
         
-        
             panel-cover panel-cover--collapsed
-        
         " >
     <div class="panel-main">
         <div class="panel-main__inner panel-inverted">
@@ -91,39 +89,59 @@
 </noscript>
 
     <div class="content-wrapper">
-        <div class="content-wrapper__inner">
-            <section id="main">
-              <div>
-                <h1 id="title">Tags</h1>
-                <style type="text/css">
-                        #double ul{
-                          width:760px;
-                          margin-bottom:20px;
-                          overflow:hidden;
-                        }
-                        #double li{
-                          line-height:1.5em;
-                          float:left;
-                          display:inline;
-                          width:50%;
-                        }
-                </style>
-                <ul id="double">
-                
-                
-                    <li>
-                        <a href="development">development</a> 2
-                    </li>
-                
-                    <li>
-                        <a href="golang">golang</a> 2
-                    </li>
-                
-               </ul>
-              </div>
-            </section>
-            </div>
+      <div class="content-wrapper__inner">
+        <div class="post">
+          <h1>Pushing Your Blog to Github And Viewing as Github pages</h1>
+          <span class="post-date">Fri, Jan 8, 2016</span>
+          <p>IMP :- This post is based on the windows version of hugo.</p>
+
+<p>You may visit <a href ="http://codein-dwij.github.io/blog_hugo/post/learn/">Link </a> Fot the repository</p>
+
+<p>In Our last post, we had done making the blog. Now we will be pushing it to Github. To do this you must have a little knowledge about using Git and Github.</p>
+
+<p>First Create a new repository on your account.Once done open your cmd and set your location to a folder named public where your blog was created . Now type the following commands.</p>
+
+<pre><code>                                            git init
+
+                                            git checkout --orphan gh-pages                                              
+
+                                            git add .
+
+                                            git commit -m &quot;Initial Commit&quot;
+
+                                            git remote add origin [YOUR_REPOSITORY_LINK]     { For Example :- git remote add origin https://github.com/codein-dwij/blog_hugo.git }
+
+                                            git push origin gh-pages
+</code></pre>
+
+<p>Now enter your account details and press enter. Your blog is successfully pushed to Github. To View Your blog , type on the address bar</p>
+
+<pre><code>                                            http://YOUR_USERNAME.github.io/REPOSITORY_NAME   { For Example :- http://codein-dwij.github.io/blog_hugo}                                           
+</code></pre>
+
+<p>You may see your blog generated there. You can add more posts to your blog , generate it using &ldquo;hugo &ndash;&rdquo; command and push it to github!</p>
+
         </div>
-    </body>
-    
+        <div class="sharing">
+<a href="https://twitter.com/intent/tweet?status=Pushing%20Your%20Blog%20to%20Github%20And%20Viewing%20as%20Github%20pages-http%3a%2f%2fcodein-dwij.github.io%2fblog_hugo%2fpost%2fgithub%2f" target="_blank" title="Follow me on Twitter" class="twitter">
+<span class="fa fa-twitter-square fa-3x"></span></a>
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fcodein-dwij.github.io%2fblog_hugo%2fpost%2fgithub%2f" target="_blank" title="Join me on Facebook" class="facebook">
+<span class="fa fa-facebook-square fa-3x"></span></a>
+<a href="https://plus.google.com/share?url=http%3a%2f%2fcodein-dwij.github.io%2fblog_hugo%2fpost%2fgithub%2f" target="_blank" title="Google+" class="googleplus">
+<span class="fa fa-google-plus-square fa-3x"></span></a>
+<a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2fcodein-dwij.github.io%2fblog_hugo%2fpost%2fgithub%2f&title=Pushing%20Your%20Blog%20to%20Github%20And%20Viewing%20as%20Github%20pages" target="_blank" title="LinkedIn" class="linkedin">
+<span class="fa fa-linkedin-square fa-3x"></span></a>
+<a href="http://www.reddit.com/submit?url=http%3a%2f%2fcodein-dwij.github.io%2fblog_hugo%2fpost%2fgithub%2f" target="_blank" title="Reddit" class="reddit"><span class="fa fa-reddit-square fa-3x"></span></a>
+<a href="http://www.stumbleupon.com/submit?url=http%3a%2f%2fcodein-dwij.github.io%2fblog_hugo%2fpost%2fgithub%2f" target="_blank" title="StumbleUpon" class="stumbleupon"><span class="fa fa-stumbleupon fa-3x">
+</span></a>
+</div>
+        
+
+
+
+      </div>
+    </div>
+
+  </body>
+  
 </html>

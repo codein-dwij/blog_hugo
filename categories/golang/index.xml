@@ -7,7 +7,43 @@
     <language>en-us</language>
     
     
-    <updated>Mon, 28 Dec 2015 18:52:35 IST</updated>
+    <updated>Fri, 08 Jan 2016 17:48:41 IST</updated>
+    
+    <item>
+      <title>Pushing Your Blog to Github And Viewing as Github pages</title>
+      <link>http://codein-dwij.github.io/blog_hugo/post/github/</link>
+      <pubDate>Fri, 08 Jan 2016 17:48:41 IST</pubDate>
+      
+      <guid>http://codein-dwij.github.io/blog_hugo/post/github/</guid>
+      <description>&lt;p&gt;IMP :- This post is based on the windows version of hugo.&lt;/p&gt;
+
+&lt;p&gt;You may visit &lt;a href =&#34;http://codein-dwij.github.io/blog_hugo/post/learn/&#34;&gt;Link &lt;/a&gt; Fot the repository&lt;/p&gt;
+
+&lt;p&gt;In Our last post, we had done making the blog. Now we will be pushing it to Github. To do this you must have a little knowledge about using Git and Github.&lt;/p&gt;
+
+&lt;p&gt;First Create a new repository on your account.Once done open your cmd and set your location to a folder named public where your blog was created . Now type the following commands.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;                                            git init
+
+                                            git checkout --orphan gh-pages                                              
+
+                                            git add .
+
+                                            git commit -m &amp;quot;Initial Commit&amp;quot;
+
+                                            git remote add origin [YOUR_REPOSITORY_LINK]     { For Example :- git remote add origin https://github.com/codein-dwij/blog_hugo.git }
+
+                                            git push origin gh-pages
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now enter your account details and press enter. Your blog is successfully pushed to Github. To View Your blog , type on the address bar&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;                                            http://YOUR_USERNAME.github.io/REPOSITORY_NAME   { For Example :- http://codein-dwij.github.io/blog_hugo}                                           
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You may see your blog generated there. You can add more posts to your blog , generate it using &amp;ldquo;hugo &amp;ndash;&amp;rdquo; command and push it to github!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Lets Learn To Setup a Blog Using Hugo</title>
@@ -52,7 +88,12 @@ Then add a new line of code :-&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;                             http://localhost:1313
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;That&amp;rsquo;s all , Our Blog is ready to view. You may later upload it to github and use it as a page..&lt;/p&gt;
+&lt;p&gt;Now, Lets build our blog. For that type :-&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;                            hugo --
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;That&amp;rsquo;s all , Our Blog is ready. You may later upload it to github and use it as a page..&lt;/p&gt;
 </description>
     </item>
     
